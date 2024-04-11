@@ -13,10 +13,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 //RestAdapter;
 public class Api {
-    //此方法返回一个ApiInterface类型的对象
     public static ApiInterface getClient(){
 
-        //在这里修改自己的URL
+        //please modify the url here (在这里修改自己的URL)
         Retrofit retrofit =  new Retrofit.Builder()
                 //.baseUrl("http://10.0.2.2:8000")
                 .baseUrl("http://django-hotel-api-final-project-dev.us-west-2.elasticbeanstalk.com/")

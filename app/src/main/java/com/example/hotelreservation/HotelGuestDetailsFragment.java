@@ -205,7 +205,8 @@ public class HotelGuestDetailsFragment extends Fragment {
                 guestNameEditText.setError("Please input your name");
                 isAllFieldsValid = false;
             }
-            if(TextUtils.isEmpty(phoneNumberEditText.getText().toString())){
+            if(TextUtils.isEmpty(phoneNumberEditText.getText().toString())
+            ){
                 phoneNumberEditText.setError("please input your phone number");
                 isAllFieldsValid = false;
             }

@@ -34,6 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter phone number"
+            android:inputType="phone"
             android:textSize="20sp"/>
 
         <TextView
@@ -47,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter email address"
+            android:inputType="textEmailAddress"
             android:textSize="20sp"/>
 
         <RadioGroup

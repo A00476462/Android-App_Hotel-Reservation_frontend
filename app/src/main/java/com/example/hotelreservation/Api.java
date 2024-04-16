@@ -17,8 +17,9 @@ public class Api {
 
         //please modify the url here (在这里修改自己的URL)
         Retrofit retrofit =  new Retrofit.Builder()
-                //.baseUrl("http://10.0.2.2:8000")
-                .baseUrl("http://django-hotel-api-final-project-dev.us-west-2.elasticbeanstalk.com/")
+//                .baseUrl("http://10.0.2.2:8000")
+//                .baseUrl("http://django-hotel-api-final-project-dev.us-west-2.elasticbeanstalk.com/")
+                .baseUrl("http://djangohotelapifinalproject-env.eba-39scu9mh.us-west-2.elasticbeanstalk.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

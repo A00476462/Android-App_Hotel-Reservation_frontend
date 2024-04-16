@@ -62,7 +62,7 @@ public class HotelsListFragment extends Fragment implements ItemClickListener {
             @Override
             public void onResponse(Call<List<HotelListData>> call, Response<List<HotelListData>> response) {
                 progressBar.setVisibility(View.GONE);
-                Log.e("HotelListFragmentSize", String.valueOf(response.body().size()));
+//                Log.e("HotelListFragmentSize", String.valueOf(response.body().size()));
 
                 if (response.isSuccessful()) {
                     userListResponseData = response.body();
